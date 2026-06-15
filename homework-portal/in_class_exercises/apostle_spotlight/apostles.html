@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* body {
+            background-color: #e8eced;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #card {
+            border: 10px solid rgb(0, 0, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+        }
+
+        #background-img{
+            position: relative;
+            display: grid;
+            border: solid 10px red;
+            grid-column-start: 2; 
+        } */
+
+         #apostles img{
+            border: solid white 5px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px ;
+            object-fit: cover;
+            margin-left: 15px;
+            /* object-position: 50% 25%; */
+        }
+        #apostles img:hover{
+            border: solid purple 15px;
+        }
+        .first-presidency img{
+            border: solid white 5px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px ;
+            object-fit: cover;
+        }
+        .first-presidency img:hover{
+            border: solid purple 15px;
+        }
+        /* #first-presidency {
+            position: absolute;
+            border: 10px solid pink;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            grid-column-start: 2/3;
+        }
+        #apostles {
+            position: absolute;
+            border: 10px solid purple;
+            z-index: 10;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-start: 2/3;
+        } */
+
+        body {
+    background-color: #e8eced;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    /* padding: 40px; */
+    align-items: center;
+    /* min-height: 100vh;
+    margin: auto;
+    box-sizing: border-box; */
+
+    
+}
+h1, h2 {
+    color: white;
+}
+div.intermediary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-image: url('images/christus.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border: 4px solid #333;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 750px;
+    width: 100%;
+    justify-content: center;
+    
+    
+    
+}
+#pres-oaks {
+    height: 200px;
+    width: 200px;
+}
+#eyring, #christofferson{
+    height: 175px;
+    width: 175px;
+}
+    </style>
+</head>
+<body>
+    <div class="intermediary">
+    <div id="card">
+        <h1>First Presidency</h1>
+        
+
+        <div class="first-presidency">
+            <img id="eyring" src="images/eyring.webp">
+            <img id="pres-oaks" src="images\oaks.webp">
+            <img id="christofferson" src="images\christofferson.webp">
+        </div>
+        <h2>Quorum of the Twelve Apsotles</h2>
+        <div id="apostles">
+            <img id="uchtdorf" src="images\uchtdorf.webp">
+            <img id="bednar" src="images/bednar.webp">
+            <img id="cook" src="images\cook.webp">
+            <img id="anderson" src="images\anderson.webp">
+            <img id="rasband" src="images\rasband.webp">
+            <img id="stevenson" src="images\stevenson.webp">
+            <img id="renlund" src="images\renlund.webp">
+            <img id="gong" src="images\gong.webp">
+            <img id="soares" src="images\soares.webp">
+            <img id="kearon" src="images\kearon.webp">
+            <img id="causse" src="images\causse.webp">
+            <img id="gilbert" src="images\gilbert.webp">
+        </div>
+    </div>
+    </div>
+</body>
+</html>
